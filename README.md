@@ -100,8 +100,7 @@ L4vRLWAO92X5L3Sqk5QydUSdB0nC9+1wfqLMOKLbRp4=
 ```
 
 ## Known limitations
-This version adds support for PUT calls as well. The earlier version of the module only had support
-for GET and HEAD calls.
+This version adds support for PUT calls as well. The earlier version of the module only had support for GET and HEAD calls.
 
 
 ## Credits

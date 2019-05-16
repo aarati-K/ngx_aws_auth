@@ -21,8 +21,8 @@ http {
     #}
     location ~* ^/s3/(.*) {
       set $bucket           'small-values';
-      set $aws_access       'AKIAJXI6TBS3WIVC2TRA';
-      set $aws_secret       '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';
+      set $aws_access       '<aws_access>';
+      set $aws_secret       '<aws_secret>';
       set $url_full         "$1";
       set_formatted_gmt_time $now "%a, %e %b %Y %H:%M:%S +0000";
       set $string_to_sign   "$request_method\n\n\nx-amz-date:$now\n/$bucket/$url_full";

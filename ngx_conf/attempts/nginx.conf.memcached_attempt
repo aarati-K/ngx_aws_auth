@@ -7,8 +7,8 @@ http {
     listen 80;
     server_name www.domain.com;
 
-    aws_access_key "AKIAJXI6TBS3WIVC2TRA";
-    aws_signing_key "b7nlZ5r3mN7M1h42Bu2N2G0buLAqT0qNydFl1vXJNIc=";
+    aws_access_key "<access_key>";
+    aws_signing_key "<signing_key>";
     aws_key_scope "20190506/ap-southeast-2/s3/aws4_request";
     aws_s3_bucket "small-values";
 
